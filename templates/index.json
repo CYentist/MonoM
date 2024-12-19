@@ -1,1 +1,415 @@
-{"sections":{"image_banner_pgXAQU":{"type":"image-banner","blocks":{"heading_H7NkR7":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"text_FGriE9":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"buttons_acUx9W":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_H7NkR7","text_FGriE9","buttons_acUx9W"],"settings":{"image":"shopify:\/\/shop_images\/decorated-christmas-tree.jpg","image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"rich_text_nrPPWf":{"type":"rich-text","blocks":{"text_CxLCkH":{"type":"text","settings":{"text":"<p>Mono M smells like<\/p><h2>  \"Self Celebration\"<\/h2>"}}},"block_order":["text_CxLCkH"],"custom_css":["{border: none !important; box-shadow: none !important; outline: none; background: transparent;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-4","full_width":true,"padding_top":40,"padding_bottom":40}},"featured_collection":{"type":"featured-collection","custom_css":[],"settings":{"title":"Candles & Stories","heading_size":"h2","description":"<p>Every candle is inpired by a real life story<\/p>","show_description":false,"description_style":"subtitle","collection":"all","products_to_show":3,"columns_desktop":3,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-4","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":true,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":false,"padding_top":32,"padding_bottom":36}},"image_banner_pnP4JP":{"type":"image-banner","blocks":{"heading_KAPMcb":{"type":"heading","settings":{"heading":"Join the Mono.M Club","heading_size":"h1"}},"text_qFCxnf":{"type":"text","settings":{"text":"Enjoy free shipping","text_style":"body"}},"buttons_zJhVxc":{"type":"buttons","settings":{"button_label_1":"Become a member","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_KAPMcb","text_qFCxnf","buttons_zJhVxc"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/vintage_san_francisco___cable_cars_by_yesterdays_paper_dcovs8d-fullview.jpg","image_overlay_opacity":70,"image_height":"small","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-4","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"multicolumn_3Yyfeb":{"type":"multicolumn","blocks":{"column_EPkzqL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/MONOM_WHITE.png","title":"Eco-Friendly","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_BdcDf6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/MONOM_WHITE.png","title":"Sustainability","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_4QxPVV":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/MONOM_WHITE.png","title":"Authenticity","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["column_EPkzqL","column_BdcDf6","column_4QxPVV"],"settings":{"title":"What Make Us Different","heading_size":"h2","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-4","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"ss_feature_1_yaLHaK":{"type":"ss-feature-1","blocks":{"image_KtzTKF":{"type":"image","settings":{"feature_title":"Free Shipping","feature_text":"<p>Order today, receive tomorrow<\/p>","feature_url":"https:\/\/section.store\/","hide_image":false}},"image_n3H4YV":{"type":"image","settings":{"feature_title":"Price-match guarantee","feature_text":"<p>Safe money when ordering with us<\/p>","feature_url":"","hide_image":false}},"image_7b3nwL":{"type":"image","settings":{"feature_title":"Hassle-free exchange","feature_text":"<p>Receive a slip for exchanges<\/p>","feature_url":"","hide_image":false}},"image_y3XtgY":{"type":"image","settings":{"feature_title":"5.0 Google Reviews","feature_text":"<p>Customer satisfaction #1 priority<\/p>","feature_url":"","hide_image":false}}},"block_order":["image_KtzTKF","image_n3H4YV","image_7b3nwL","image_y3XtgY"],"settings":{"feature_row":4,"feature_row_mobile":1,"feature_gap":20,"feature_gap_mobile":20,"feature_padding_horizontal":0,"feature_padding_vertical":0,"feature_radius":16,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":false,"feature_heading_font":"josefin_sans_n4","feature_heading_size":14,"feature_heading_size_mobile":12,"feature_heading_height":130,"feature_heading_mt":8,"feature_text_custom":false,"feature_text_font":"josefin_sans_n4","feature_text_size":12,"feature_text_size_mobile":12,"feature_text_height":130,"feature_text_mt":4,"feature_icon_size":42,"feature_icon_size_mobile":42,"feature_bg":"#000000","feature_border_color":"#000000","feature_shadow_color":"#000000","feature_heading_color":"#ffffff","feature_text_color":"#ffffff","feature_icon_color":"#ffffff","background_color":"#000000","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":16,"padding_bottom":16,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":120,"border_thickness":0,"lazy":true}},"image_with_text_VXpQ6f":{"type":"image-with-text","blocks":{"heading_aMWCF8":{"type":"heading","settings":{"heading":"Welcome to Mono.M Club","heading_size":"h2"}},"text_gjrnVT":{"type":"text","settings":{"text":"<p>Our journey begins from the ground up.<\/p><p>In 2024, Mono.M was born from a spark of inspiration in a chemistry lab—the first place founder Jill visited upon returning to school after 12 years in marketing. As she watched molecules react and transform, she envisioned a brand where science and artistry would intertwine to bring her dreams to life.<\/p><p>At Mono.M, we believe every life is a cinematic journey—filled with moments of joy, celebration, and inspiration. Each story is a beautiful memory worth preserving, and our fragrances are crafted to do just that. Through curiosity, empathy, and meticulous craftsmanship, we transform these stories into poetic scents, designed to be savored slowly in the sanctuary of your home.<\/p>","text_style":"body"}},"button_iQfNEz":{"type":"button","settings":{"button_label":"Learn More","button_link":"https:\/\/monom.club\/pages\/about-us","button_style_secondary":false}}},"block_order":["heading_aMWCF8","text_gjrnVT","button_iQfNEz"],"custom_css":["p {font-size: 14px;}"],"settings":{"image":"shopify:\/\/shop_images\/pexels-michael-koneckiy-461417719-20585263_jpg.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"scheme-4","color_scheme":"scheme-1","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":0}}},"order":["image_banner_pgXAQU","rich_text_nrPPWf","featured_collection","image_banner_pnP4JP","multicolumn_3Yyfeb","ss_feature_1_yaLHaK","image_with_text_VXpQ6f"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_pgXAQU": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_H7NkR7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_FGriE9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_acUx9W": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_H7NkR7",
+        "text_FGriE9",
+        "buttons_acUx9W"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/decorated-christmas-tree.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_nrPPWf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CxLCkH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mono M smells like</p><h2>  \"Self Celebration\"</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CxLCkH"
+      ],
+      "custom_css": [
+        "{border: none !important; box-shadow: none !important; outline: none; background: transparent;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Candles & Stories",
+        "heading_size": "h2",
+        "description": "<p>Every candle is inpired by a real life story</p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "all",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-4",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_pnP4JP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KAPMcb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Mono.M Club",
+            "heading_size": "h1"
+          }
+        },
+        "text_qFCxnf": {
+          "type": "text",
+          "settings": {
+            "text": "Enjoy free shipping",
+            "text_style": "body"
+          }
+        },
+        "buttons_zJhVxc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Become a member",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KAPMcb",
+        "text_qFCxnf",
+        "buttons_zJhVxc"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/vintage_san_francisco___cable_cars_by_yesterdays_paper_dcovs8d-fullview.jpg",
+        "image_overlay_opacity": 70,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_3Yyfeb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EPkzqL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MONOM_WHITE.png",
+            "title": "Eco-Friendly",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BdcDf6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MONOM_WHITE.png",
+            "title": "Sustainability",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4QxPVV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MONOM_WHITE.png",
+            "title": "Authenticity",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EPkzqL",
+        "column_BdcDf6",
+        "column_4QxPVV"
+      ],
+      "settings": {
+        "title": "What Make Us Different",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_feature_1_yaLHaK": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_KtzTKF": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Free Shipping",
+            "feature_text": "<p>Order today, receive tomorrow</p>",
+            "feature_url": "https://section.store/",
+            "hide_image": false
+          }
+        },
+        "image_n3H4YV": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Price-match guarantee",
+            "feature_text": "<p>Safe money when ordering with us</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_7b3nwL": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Hassle-free exchange",
+            "feature_text": "<p>Receive a slip for exchanges</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_y3XtgY": {
+          "type": "image",
+          "settings": {
+            "feature_title": "5.0 Google Reviews",
+            "feature_text": "<p>Customer satisfaction #1 priority</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KtzTKF",
+        "image_n3H4YV",
+        "image_7b3nwL",
+        "image_y3XtgY"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 1,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 0,
+        "feature_padding_vertical": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 130,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 12,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#000000",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#ffffff",
+        "feature_text_color": "#ffffff",
+        "feature_icon_color": "#ffffff",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "image_with_text_VXpQ6f": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aMWCF8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Mono.M Club",
+            "heading_size": "h2"
+          }
+        },
+        "text_gjrnVT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our journey begins from the ground up.</p><p>In 2024, Mono.M was born from a spark of inspiration in a chemistry lab—the first place founder Jill visited upon returning to school after 12 years in marketing. As she watched molecules react and transform, she envisioned a brand where science and artistry would intertwine to bring her dreams to life.</p><p>At Mono.M, we believe every life is a cinematic journey—filled with moments of joy, celebration, and inspiration. Each story is a beautiful memory worth preserving, and our fragrances are crafted to do just that. Through curiosity, empathy, and meticulous craftsmanship, we transform these stories into poetic scents, designed to be savored slowly in the sanctuary of your home.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_iQfNEz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https://monom.club/pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aMWCF8",
+        "text_gjrnVT",
+        "button_iQfNEz"
+      ],
+      "custom_css": [
+        "p {font-size: 14px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pexels-michael-koneckiy-461417719-20585263_jpg.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_ikMrkJ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_rTcEMe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_wdNU6k": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_j7qLej": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_rTcEMe",
+        "featured_collection_wdNU6k",
+        "featured_collection_j7qLej"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "rolling_text": "Welcome to our store! Free shipping on orders over $80"
+      }
+    }
+  },
+  "order": [
+    "image_banner_pgXAQU",
+    "rich_text_nrPPWf",
+    "featured_collection",
+    "image_banner_pnP4JP",
+    "multicolumn_3Yyfeb",
+    "ss_feature_1_yaLHaK",
+    "image_with_text_VXpQ6f",
+    "collection_list_ikMrkJ"
+  ]
+}
