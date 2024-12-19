@@ -100,3 +100,16 @@ if (Shopify.designMode) {
   document.addEventListener('shopify:section:load', (event) => initializeScrollAnimationTrigger(event.target, true));
   document.addEventListener('shopify:section:reorder', () => initializeScrollAnimationTrigger(document, true));
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const rollingHeader = document.querySelector('.rolling-header');
+  if (rollingHeader) {
+    rollingHeader.addEventListener('mouseenter', function() {
+      rollingHeader.querySelector('.rolling-header__text').style.animationPlayState = 'paused';
+    });
+    
+    rollingHeader.addEventListener('mouseleave', function() {
+      rollingHeader.querySelector('.rolling-header__text').style.animationPlayState = 'running';
+    });
+  }
+});
