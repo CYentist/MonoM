@@ -1,1 +1,421 @@
-{"sections":{"image_banner_mYfFXw":{"type":"image-banner","blocks":{"heading_ew4tLp":{"type":"heading","disabled":true,"settings":{"heading":"Gifts And Costs","heading_size":"h1"}},"text_HFd9E6":{"type":"text","settings":{"text":"\"<strong>{{ product.metafields.custom.m_banner_test.value }}<\/strong>\"","text_style":"body"}},"buttons_zwpKfi":{"type":"buttons","settings":{"button_label_1":"Read More","button_link_1":"{{ product.metafields.custom.m_story_link.value }}","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_ew4tLp","text_HFd9E6","buttons_zwpKfi"],"settings":{"image":"{{ product.metafields.custom.m_story_image.value }}","image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"scheme-5","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":true}},"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"vendor":{"type":"text","settings":{"text":"{{ product.metafields.shopify[\"color-pattern\"] | metafield_text: field: 'label' }}Smells like <strong>\"<\/strong><strong>{{ product.metafields.custom.m_smells_like.value }}<\/strong><strong>\"<\/strong>","text_style":"body"}},"text_gtxmkc":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"subtitle"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":true}},"icon_with_text_GKfzJw":{"type":"icon-with-text","settings":{"layout":"horizontal","icon_1":"star","heading_1":"Natrual","icon_2":"return","heading_2":"Return","icon_3":"truck","heading_3":"Refill"}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}},"complementary_C6LJaL":{"type":"complementary","settings":{"block_heading":"Pairs well with","make_collapsible_row":false,"icon":"price_tag","product_list_limit":10,"products_per_page":3,"pagination_style":"counter","image_ratio":"square","enable_quick_add":true}}},"block_order":["title","vendor","text_gtxmkc","price","variant_picker","quantity_selector","buy_buttons","icon_with_text_GKfzJw","description","share","complementary_C6LJaL"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-4","media_size":"large","constrain_to_viewport":true,"media_fit":"cover","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":20,"padding_bottom":12}},"image_banner_izcxRq":{"type":"image-banner","blocks":{"heading_qbQbLF":{"type":"heading","settings":{"heading":"Join the Mono M Club","heading_size":"h1"}},"text_cQU8QE":{"type":"text","settings":{"text":"- Free Shipping","text_style":"body"}},"buttons_CmDNtt":{"type":"buttons","settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_qbQbLF","text_cQU8QE","buttons_CmDNtt"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/pexels-cottonbro-3171837_jpg.png","image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"scheme-5","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"image_with_text_x6K8Jf":{"type":"image-with-text","blocks":{"text_bFxXNF":{"type":"text","settings":{"text":"{{ product.metafields.custom.m_story_header | metafield_tag }}","text_style":"body"}},"button_9bhKxL":{"type":"button","settings":{"button_label":"Read More","button_link":"","button_style_secondary":false}}},"block_order":["text_bFxXNF","button_9bhKxL"],"settings":{"image":"{{ product.metafields.custom.m_story_image.value }}","height":"adapt","desktop_image_width":"large","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"scheme-4","color_scheme":"scheme-5","image_behavior":"none","mobile_content_alignment":"left","padding_top":0,"padding_bottom":0}},"ss_text_block_Jye3Dr":{"type":"ss-text-block","blocks":{"text_4JezHE":{"type":"text","settings":{"heading":"<p>Like the scent? Why not subscribe REFILLs to enjoy <\/p><p>FREE SHIPPING and FREE CANDLE<\/p>","color":"#fff1e0","font_size":30,"richtext":"<p><\/p><p><\/p><p><\/p><p><\/p>","richtext_color":"#fff1e0","richtext_font_size":14}},"button_GKjEjb":{"type":"button","settings":{"button_text":"Check the refills","button_link":"{{ product.metafields.custom.m_refill_link.value }}","color":"#020912","background_color":"#ffffff","border_radius":"50px","font_size":18}}},"block_order":["text_4JezHE","button_GKjEjb"],"settings":{"padding_header":0,"padding_button":10,"background-color":"#6a6a6a","padding_top":24,"padding_bottom":36,"section-width":120}},"image_with_text_DX8NTp":{"type":"image-with-text","blocks":{"heading_C9xy7i":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text_YRaaTj":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"button_87xFdQ":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_C9xy7i","text_YRaaTj","button_87xFdQ"],"disabled":true,"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"collage_EhTQJ8":{"type":"collage","blocks":{"image_cpThVP":{"type":"image","settings":{}},"image_7LVD6E":{"type":"image","settings":{}}},"block_order":["image_cpThVP","image_7LVD6E"],"disabled":true,"settings":{"heading":"","heading_size":"h1","desktop_layout":"left","mobile_layout":"column","card_styles":"product-card-wrapper","color_scheme":"scheme-5","padding_top":36,"padding_bottom":36}},"featured_blog_JpPbYy":{"type":"featured-blog","disabled":true,"settings":{"heading":"Blog posts","heading_size":"h1","blog":"stories","post_limit":3,"columns_desktop":3,"color_scheme":"scheme-4","show_image":true,"show_date":false,"show_author":false,"show_view_all":true,"padding_top":36,"padding_bottom":36}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-4","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["image_banner_mYfFXw","main","image_banner_izcxRq","image_with_text_x6K8Jf","ss_text_block_Jye3Dr","image_with_text_DX8NTp","collage_EhTQJ8","featured_blog_JpPbYy","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_mYfFXw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ew4tLp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Gifts And Costs",
+            "heading_size": "h1"
+          }
+        },
+        "text_HFd9E6": {
+          "type": "text",
+          "settings": {
+            "text": "\"<strong>{{ product.metafields.custom.m_banner_test.value }}</strong>\"",
+            "text_style": "body"
+          }
+        },
+        "buttons_zwpKfi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Read More",
+            "button_link_1": "{{ product.metafields.custom.m_story_link.value }}",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ew4tLp",
+        "text_HFd9E6",
+        "buttons_zwpKfi"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.m_story_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_text: field: 'label' }}Smells like <strong>\"</strong><strong>{{ product.metafields.custom.m_smells_like.value }}</strong><strong>\"</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_gtxmkc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "icon_with_text_GKfzJw": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "heading_1": "Natrual",
+            "icon_2": "return",
+            "heading_2": "Return",
+            "icon_3": "truck",
+            "heading_3": "Refill"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "complementary_C6LJaL": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "text_gtxmkc",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "icon_with_text_GKfzJw",
+        "description",
+        "share",
+        "complementary_C6LJaL"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-4",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 12,
+        "media_layout": "stacked",
+        "media_gap": 0
+      }
+    },
+    "image_banner_izcxRq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qbQbLF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Mono M Club",
+            "heading_size": "h1"
+          }
+        },
+        "text_cQU8QE": {
+          "type": "text",
+          "settings": {
+            "text": "- Free Shipping",
+            "text_style": "body"
+          }
+        },
+        "buttons_CmDNtt": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qbQbLF",
+        "text_cQU8QE",
+        "buttons_CmDNtt"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/pexels-cottonbro-3171837_jpg.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_x6K8Jf": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_bFxXNF": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.m_story_header | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "button_9bhKxL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_bFxXNF",
+        "button_9bhKxL"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.m_story_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_text_block_Jye3Dr": {
+      "type": "ss-text-block",
+      "blocks": {
+        "text_4JezHE": {
+          "type": "text",
+          "settings": {
+            "heading": "<p>Like the scent? Why not subscribe REFILLs to enjoy </p><p>FREE SHIPPING and FREE CANDLE</p>",
+            "color": "#fff1e0",
+            "font_size": 30,
+            "richtext": "<p></p><p></p><p></p><p></p>",
+            "richtext_color": "#fff1e0",
+            "richtext_font_size": 14
+          }
+        },
+        "button_GKjEjb": {
+          "type": "button",
+          "settings": {
+            "button_text": "Check the refills",
+            "button_link": "{{ product.metafields.custom.m_refill_link.value }}",
+            "color": "#020912",
+            "background_color": "#ffffff",
+            "border_radius": "50px",
+            "font_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "text_4JezHE",
+        "button_GKjEjb"
+      ],
+      "settings": {
+        "padding_header": 0,
+        "padding_button": 10,
+        "background-color": "#6a6a6a",
+        "padding_top": 24,
+        "padding_bottom": 36,
+        "section-width": 120
+      }
+    },
+    "image_with_text_DX8NTp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C9xy7i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_YRaaTj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_87xFdQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_C9xy7i",
+        "text_YRaaTj",
+        "button_87xFdQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_EhTQJ8": {
+      "type": "collage",
+      "blocks": {
+        "image_cpThVP": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_7LVD6E": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_cpThVP",
+        "image_7LVD6E"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_JpPbYy": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "stories",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-4",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_mYfFXw",
+    "main",
+    "image_banner_izcxRq",
+    "image_with_text_x6K8Jf",
+    "ss_text_block_Jye3Dr",
+    "image_with_text_DX8NTp",
+    "collage_EhTQJ8",
+    "featured_blog_JpPbYy",
+    "related-products"
+  ]
+}
