@@ -1,0 +1,44 @@
+.image-with-text-cursor__container {
+  position: relative;
+}
+
+.image-with-text-cursor__content {
+  padding: 4rem;
+  position: relative;
+  border-radius: var(--border-radius);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-with-text-cursor__media-image {
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+}
+
+.image-with-text-cursor__media:hover .image-with-text-cursor__media-image {
+  transform: scale(1.05);
+}
+
+.image-with-text-cursor__text {
+  margin-top: 2rem;
+}
+
+.image-with-text-cursor__heading {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .image-with-text-cursor__grid {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text-cursor__content {
+    padding: 2rem;
+  }
+  
+  .image-with-text-cursor__media-item {
+    margin-bottom: 2rem;
+  }
+} 
