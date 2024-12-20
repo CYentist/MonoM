@@ -31,24 +31,23 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    /* Updated styles for better gap control */
+    /* Reset and override default grid styles */
     #ProductGallery-{{ section.id }} {
-      {% if section.settings.media_layout == 'stacked' %}
-        display: flex !important;
-        flex-direction: column !important;
-        gap: {{ section.settings.media_gap }}px !important;
-      {% else %}
-        display: grid !important;
-        gap: {{ section.settings.media_gap }}px !important;
-      {% endif %}
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: {{ section.settings.media_gap }}px;
     }
 
+    /* Stacked layout styles */
     {% if section.settings.media_layout == 'stacked' %}
+      #ProductGallery-{{ section.id }} {
+        grid-template-columns: 1fr !important;
+      }
+
       #ProductGallery-{{ section.id }} .product__media-item {
         width: 100% !important;
         max-width: 100% !important;
         margin: 0 !important;
-        padding: 0 !important;
       }
     {% endif %}
 
