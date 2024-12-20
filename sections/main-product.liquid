@@ -31,6 +31,24 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
+    /* Add this new style */
+    {% if section.settings.media_layout == 'stacked' %}
+      .product__media-wrapper {
+        width: 100%;
+        max-width: 100%;
+      }
+      .product__info-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+      }
+      @media screen and (min-width: 750px) {
+        .product {
+          display: block;
+        }
+      }
+    {% endif %}
+
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
@@ -2254,6 +2272,22 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "select",
+      "id": "media_layout",
+      "label": "Desktop media layout",
+      "options": [
+        {
+          "value": "default",
+          "label": "Side by side"
+        },
+        {
+          "value": "stacked",
+          "label": "Stacked"
+        }
+      ],
+      "default": "default"
     }
   ]
 }
