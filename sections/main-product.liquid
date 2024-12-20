@@ -31,9 +31,22 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    /* Control gap for both layouts */
-    #ProductGallery-{{ section.id }} .product__media-list {
-      gap: {{ section.settings.media_gap }}px !important;
+    /* Target both slider and grid layouts */
+    .product__media-wrapper media-gallery,
+    .product__media-wrapper slider-component {
+      --grid-spacing-horizontal: {{ section.settings.media_gap }}px !important;
+      --grid-spacing-vertical: {{ section.settings.media_gap }}px !important;
+    }
+
+    /* Ensure gap is applied in both layouts */
+    .product__media-list {
+      row-gap: {{ section.settings.media_gap }}px !important;
+      column-gap: {{ section.settings.media_gap }}px !important;
+    }
+
+    /* Additional specificity for stacked layout */
+    .product--stacked .product__media-list {
+      row-gap: {{ section.settings.media_gap }}px !important;
     }
 
     @media screen and (min-width: 750px) {
