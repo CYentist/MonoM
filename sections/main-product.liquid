@@ -31,21 +31,23 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    /* Add this new style */
+    /* Update stacked layout styles with adjustable gap */
     {% if section.settings.media_layout == 'stacked' %}
       .product__media-gallery {
         display: flex;
         flex-direction: column;
+        gap: {{ section.settings.media_gap }}px;
       }
       
       .product__media-wrapper .product__media-item {
         width: 100% !important;
         max-width: 100%;
-        margin-bottom: 2rem;
+        margin: 0; /* Reset margin to use gap instead */
       }
-
-      .product__media-wrapper .product__media-item:last-child {
-        margin-bottom: 0;
+    {% else %}
+      /* Grid layout with adjustable gap */
+      .product__media-gallery {
+        gap: {{ section.settings.media_gap }}px;
       }
     {% endif %}
 
@@ -2288,6 +2290,16 @@
         }
       ],
       "default": "default"
+    },
+    {
+      "type": "range",
+      "id": "media_gap",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Gap between images",
+      "default": 20
     }
   ]
 }
