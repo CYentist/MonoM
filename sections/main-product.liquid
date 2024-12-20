@@ -31,25 +31,29 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    /* Target both slider and grid layouts */
-    .product__media-wrapper media-gallery,
-    .product__media-wrapper slider-component {
-      --grid-spacing-horizontal: {{ section.settings.media_gap }}px !important;
-      --grid-spacing-vertical: {{ section.settings.media_gap }}px !important;
-    }
-
-    /* Ensure gap is applied in both layouts */
+    /* Base gap settings */
     .product__media-list {
-      row-gap: {{ section.settings.media_gap }}px !important;
-      column-gap: {{ section.settings.media_gap }}px !important;
+      gap: {{ section.settings.media_gap }}px !important;
     }
 
-    /* Additional specificity for stacked layout */
-    .product--stacked .product__media-list {
-      row-gap: {{ section.settings.media_gap }}px !important;
-    }
-
+    /* Grid layout */
     @media screen and (min-width: 750px) {
+      .product--thumbnail .product__media-list {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+
+      /* Stacked layout */
+      .product--stacked .product__media-list {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+
+      .product--stacked .product__media-item {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
