@@ -31,23 +31,24 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    /* Update stacked layout styles with adjustable gap */
+    /* Updated styles for better gap control */
+    #ProductGallery-{{ section.id }} {
+      {% if section.settings.media_layout == 'stacked' %}
+        display: flex !important;
+        flex-direction: column !important;
+        gap: {{ section.settings.media_gap }}px !important;
+      {% else %}
+        display: grid !important;
+        gap: {{ section.settings.media_gap }}px !important;
+      {% endif %}
+    }
+
     {% if section.settings.media_layout == 'stacked' %}
-      .product__media-gallery {
-        display: flex;
-        flex-direction: column;
-        gap: {{ section.settings.media_gap }}px;
-      }
-      
-      .product__media-wrapper .product__media-item {
+      #ProductGallery-{{ section.id }} .product__media-item {
         width: 100% !important;
-        max-width: 100%;
-        margin: 0; /* Reset margin to use gap instead */
-      }
-    {% else %}
-      /* Grid layout with adjustable gap */
-      .product__media-gallery {
-        gap: {{ section.settings.media_gap }}px;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
     {% endif %}
 
