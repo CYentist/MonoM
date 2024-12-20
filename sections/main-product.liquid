@@ -33,19 +33,19 @@
 
     /* Add this new style */
     {% if section.settings.media_layout == 'stacked' %}
-      .product__media-wrapper {
-        width: 100%;
-        max-width: 100%;
+      .product__media-gallery {
+        display: flex;
+        flex-direction: column;
       }
-      .product__info-wrapper {
-        width: 100%;
+      
+      .product__media-wrapper .product__media-item {
+        width: 100% !important;
         max-width: 100%;
-        padding-left: 0;
+        margin-bottom: 2rem;
       }
-      @media screen and (min-width: 750px) {
-        .product {
-          display: block;
-        }
+
+      .product__media-wrapper .product__media-item:last-child {
+        margin-bottom: 0;
       }
     {% endif %}
 
@@ -2276,11 +2276,11 @@
     {
       "type": "select",
       "id": "media_layout",
-      "label": "Desktop media layout",
+      "label": "Media Layout",
       "options": [
         {
           "value": "default",
-          "label": "Side by side"
+          "label": "Grid"
         },
         {
           "value": "stacked",
