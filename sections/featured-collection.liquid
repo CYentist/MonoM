@@ -96,6 +96,19 @@
       >
         {% assign skip_card_product_styles = false %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+          {% assign regular_price = product.price %}
+          {% assign subscription_price = nil %}
+          
+          {% for variant in product.variants %}
+            {% for selling_plan_allocation in variant.selling_plan_allocations %}
+              {% assign subscription_price = selling_plan_allocation.per_delivery_price %}
+              {% break %}  <!-- Break after first allocation since it's a fixed discount -->
+            {% endfor %}
+            {% if subscription_price != nil %}
+              {% break %}  <!-- Break after finding first subscription price -->
+            {% endif %}
+          {% endfor %}
+
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
