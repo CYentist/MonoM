@@ -1,0 +1,34 @@
+{% assign regular_price = product.price %}
+{% assign subscription_price = nil %}
+{% assign subscription_discount = 17.00 %}  <!-- Fixed discount amount -->
+
+{% for variant in product.variants %}
+  {% for selling_plan_allocation in variant.selling_plan_allocations %}
+    {% assign subscription_price = regular_price | minus: subscription_discount %}
+    {% break %}
+  {% endfor %}
+  {% if subscription_price != nil %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="card-wrapper product-card-wrapper">
+  <!-- ... existing card markup ... -->
+  
+  <div class="price">
+    <div class="price__regular">
+      <span class="price-item price-item--regular">
+        {{ regular_price | money }}
+      </span>
+      {% if subscription_price != nil %}
+        <div class="price-item price-item--subscription">
+          <span class="subscription-label">Join The Club</span>
+          <span class="subscription-price">{{ subscription_price | money }}</span>
+          <span class="subscription-save">SAVE {{ subscription_discount | money }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  
+  <!-- ... rest of card markup ... -->
+</div> 
