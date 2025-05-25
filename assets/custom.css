@@ -1,0 +1,88 @@
+/*// =============================================================================
+// Ella Custom CSS - Customize The Style For Layout
+// =============================================================================
+
+// =============================================================================
+//
+// IMPORTANT DISCLAIMER
+// Shopify is notifying shop owners about the need to convert scss files to css files.
+// Please use only CSS to style the layout.
+//
+// =============================================================================*/
+
+
+
+
+/* === Global reset: remove radius on all image types === */
+.image-zoom,
+.image-zoom img,
+img {
+  border-radius: 0 !important;
+}
+
+
+/* =====================================================
+  DEFAULT PRODUCT TEAMPLATE OVERRIDE
+===================================================== */
+
+
+/* === Featured Collection: additional mobile spacing reset === */
+@media (max-width: 767px) {
+  #featured-collection-template--16841225338982__featured_collection_nxcEgN .halo-row,
+  #featured-collection-template--16841225338982__featured_collection_nxcEgN .halo-item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #featured-collection-template--16841225338982__featured_collection_nxcEgN {
+    margin-right: -50vw;
+  }
+}
+/* =====================================================
+   CUSTOM IMAGE BANNER: LAYOUT FIXES (SECTION-SPECIFIC)
+   Target: #custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY
+   Purpose: Remove side gap, maintain 1170px layout on desktop,
+   and remove mobile margin while keeping full-bleed layout.
+===================================================== */
+
+
+
+/* === Layout Fix: Custom Image Banner (No Edge Gap) === */
+
+/* [1] Disable image zoom on hover */
+.image-zoom:hover img {
+  transform: none !important;
+  transition: none !important;
+}
+
+/* [2] Make outer wrapper full width */
+#custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* [3] Restrict inner content to 1170px and center it (desktop only) */
+#custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY .container-1170 {
+  max-width: 1170px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* [4] Remove mobile edge gap caused by halo-item & halo-row */
+@media (max-width: 767px) {
+  #custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY .container-1170,
+  #custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY .halo-row,
+  #custom-image-banner-template--16841225338982__custom_image_banner_GyYpXY .halo-item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Remove bottom padding from product page's main content */
+#MainContent {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
